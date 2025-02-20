@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Copia o arquivo de solução e os arquivos de projeto
 COPY *.sln .
-COPY SiteCasamento/*.csproj ./SiteCasamento/
+COPY SiteCasamentoAPI/*.csproj ./SiteCasamentoAPI/
 
 # Restaura as dependências
 RUN dotnet restore
